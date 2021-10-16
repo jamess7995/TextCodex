@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.NurseUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="8" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="721" height="567"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="76c52" class="javax.swing.JButton" binding="previousItemButton">
+        <constraints>
+          <grid row="0" column="0" row-span="8" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="0"/>
+          <text value="Previous Item"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="18b0e" class="javax.swing.JButton" binding="updateButton">
+        <constraints>
+          <grid row="0" column="2" row-span="8" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Update"/>
+        </properties>
+      </component>
+      <component id="ff481" class="javax.swing.JButton" binding="addItemButton">
+        <constraints>
+          <grid row="0" column="4" row-span="8" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Item"/>
+        </properties>
+      </component>
+      <component id="f7ee" class="javax.swing.JButton" binding="removeItemButton">
+        <constraints>
+          <grid row="5" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove Item"/>
+        </properties>
+      </component>
+      <component id="41d8f" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit!"/>
+        </properties>
+      </component>
+      <component id="3e508" class="javax.swing.JLabel" binding="abbreviationTitle">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Abbreviations"/>
+        </properties>
+      </component>
+      <component id="2ce5c" class="javax.swing.JLabel" binding="abbreviationItem">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="1ee1a" class="javax.swing.JTextField" binding="abbreviationItemText">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="97ec2" class="javax.swing.JButton" binding="nextItemButton">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Next Item"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
